@@ -1,11 +1,11 @@
 [project]
 name = "geoint-agent"
 version = "0.1.0"
-description = "An LLM powered agent with tools that are able to see earth and retrieve informations to the user."
+description = "Detects ships in Sentinel-1 SAR imagery and cross-checks them against AIS to produce sourced intelligence notes."
 
 readme = "README.md"
 authors = [
-    { name = "PicoloSaxo", email = "bonnefontfx@gmail.com" }
+    { name = "François-Xavier Bonnefont", email = "bonnefontfx@gmail.com" }
 ]
 requires-python = ">=3.12"
 dependencies = []
