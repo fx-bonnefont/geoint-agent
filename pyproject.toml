@@ -1,0 +1,18 @@
+[project]
+name = "geoint-agent"
+version = "0.1.0"
+description = "An LLM powered agent with tools that are able to see earth and retrieve informations to the user."
+
+readme = "README.md"
+authors = [
+    { name = "PicoloSaxo", email = "bonnefontfx@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+geoint-agent = "geoint_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
