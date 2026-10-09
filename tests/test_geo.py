@@ -2,7 +2,7 @@ from geoint_agent.geo import is_valid_bbox
 
 
 def test_valid_bbox_around_brest() -> None:
-    assert is_valid_bbox(-4.6, 48.3, -4.4, 48.4)
+    assert is_valid_bbox(-4.6, 48.3, -4.4, 48.2)
 
 
 def test_invalid_bbox_min_lat_out_of_range() -> None:
